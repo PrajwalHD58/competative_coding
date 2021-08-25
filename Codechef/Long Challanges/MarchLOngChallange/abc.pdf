@@ -1,0 +1,54 @@
+###################### MINIMUM TRANSPORTATION(MINTRANS) #########################
+
+As India's farmers are facing lot of problems for selling their Goods. Abhishek a young man from Sangli distric
+
+decided to find effective way to maximize farmers profit , So he thought that he shoud minimize the transportation charges.
+
+So he collected data of production & requirement of goos in sangli distric .Interestingly, he found that demand and supply is always the same.
+
+Sangli distric villages are in one street & seperated by one unit distance, and every village  is a Producer or Importer.
+
+So abhishek will by good from distributer & sell to importer village. 
+
+
+
+As abhishek is not a programmer help him to find minimun transportation charge required.
+
+Input
+The first line of input consists of no, of test cases(T).
+
+Each test case starts with the two numbers first is  of villages in Sangli distric (N) (2 ≤ N ≤ 100000).
+ 
+& second p is denoting price reqired for transporting  one unit good for one unit distance.
+
+The following line contains n integers a(1) to a(N) (-1000 ≤ ai ≤ 1000).
+
+If ai ≥ 0, it means that village i  wants to buy ai units of good.
+
+If ai < 0, village wants to sell ai units  of good.
+
+You may assume that the numbers ai sum up to 0.
+
+
+Output
+For each test case print the minimum amount of tranportation charge needed so that every villages have their demand fulfilled.
+
+Example
+Input:
+2
+5   3
+5  -4  1  -3  1
+6   1  
+-1000  -1000  -1000  1000  1000  1000
+
+
+Output:
+18
+9000
+
+EXPLANATION for test case no. two:->
+Abhishek will by good from village 3 & will sold two village 4 Hence 
+tranportation charge equal to 1000*1=1000
+simillarly bye from village 2 & 1 & sold two village 5 & 6 respectively 
+charge=1000*3+1000*5=8000
+Total chage=9000

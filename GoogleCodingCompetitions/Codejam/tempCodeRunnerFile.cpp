@@ -1,0 +1,1 @@
+ // if((vp[i].second.second+vp[j].second.second)%2==0)
